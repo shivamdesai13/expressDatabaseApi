@@ -1,7 +1,6 @@
 {
   "name": "node_db_api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +14,14 @@
     "express": "^4.18.1",
     "mongoose": "^6.3.2",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamdesai13/expressDatabaseApi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivamdesai13/expressDatabaseApi/issues"
+  },
+  "homepage": "https://github.com/shivamdesai13/expressDatabaseApi#readme",
+  "description": ""
 }
