@@ -42,6 +42,8 @@ router.post("/students", async (req, res) => {
   
     } catch (e) {
       res.status(400).send(e);
+      console.log(e)
+
     }
   });
   
@@ -62,7 +64,7 @@ router.post("/students", async (req, res) => {
   router.get("/students/:id", async (req,res)=>{
       try{
           const _id = req.params.id;
-          const studentData = await Student.findById(_id);
+          const studentData = await Student.findById(_id); 
           console.log(studentData);
   
           if(!studentData){
