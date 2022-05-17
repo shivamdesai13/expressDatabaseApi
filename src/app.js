@@ -5,7 +5,7 @@ const Student = require("./models/students");
 const StudentRouter = require("./routers/student")
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
